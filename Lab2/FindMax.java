@@ -15,7 +15,8 @@ public class FindMax{
         for (int i = 0; i < n; i++) {
             numbers[i] = input.nextInt();
         }
-
+     int resul= MaxNum(numbers);
+public static void MaxNum(int[] numbers){
         int highest = numbers[0];
 
         for (int i = 1; i < numbers.length; i++) {
@@ -26,6 +27,7 @@ public class FindMax{
         System.out.println("The highest number in the array is: " + highest);
 
         input.close();
+}
     }
 }
 
